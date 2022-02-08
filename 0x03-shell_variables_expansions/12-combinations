@@ -1,2 +1,2 @@
 #!/bin/bash
-printf {aa..zz} | grep -v oo | tr '\n'
+printf {a..z}{a..z} | grep -v "oo" | tr '  ' '\n'
