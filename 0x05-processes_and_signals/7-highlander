@@ -1,1 +1,10 @@
 #!/usr/bin/env bash
+# trap sirve para resivir la señal de kill
+x=0
+while [ $x -le 5 ]
+x=$((x++))
+do
+    echo "To infinity and beyond"
+    sleep 2
+trap "echo I am invincible!!!" 15
+done
