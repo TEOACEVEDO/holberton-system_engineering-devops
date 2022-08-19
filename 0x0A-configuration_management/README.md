@@ -1,5 +1,5 @@
-<div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1 dir="auto"><a id="user-content-0x0a-configuration-management" class="anchor" aria-hidden="true" href="#0x0a-configuration-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>0x0A. Configuration management</h1>
+<div data-target="readme-toc.content" class="Box-body px-5 pb-5">
+            <article class="markdown-body entry-content container-lg" itemprop="text"><h1 dir="auto"><a id="user-content-0x0a-configuration-management" class="anchor" aria-hidden="true" href="#0x0a-configuration-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>0x0A. Configuration management</h1>
 <h2 dir="auto"><a id="user-content-background-context" class="anchor" aria-hidden="true" href="#background-context"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Background Context</h2>
 <p dir="auto"><a href="https://youtu.be/ogYLFyp68cI" rel="nofollow"><img src="https://camo.githubusercontent.com/e748a9ac2585d9bd2851cc7d90f9d70e6557732224559f06defd19924062dd37/68747470733a2f2f686f6c626572746f6e696e7472616e65742e73332e616d617a6f6e6177732e636f6d2f75706c6f6164732f6d65646961732f323031392f362f36613061383032346632623163343761396431652e706e673f582d416d7a2d416c676f726974686d3d415753342d484d41432d53484132353626582d416d7a2d43726564656e7469616c3d414b49415244444747474f553542484d54515834253246323032323038313925324675732d656173742d312532467333253246617773345f7265717565737426582d416d7a2d446174653d3230323230383139543134333431325a26582d416d7a2d457870697265733d383634303026582d416d7a2d5369676e6564486561646572733d686f737426582d416d7a2d5369676e61747572653d33373562623964373265363532656130373064653631643661396339363432323935626131356231313461306463663966623962313937343865623538656232" alt="" style="max-width: 100%;" data-canonical-src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6a0a8024f2b1c47a9d1e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220819%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220819T143412Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=375bb9d72e652ea070de61d6a9c9642295ba15b114a0dcf9fb9b19748eb58eb2"></a></p>
 <p dir="auto">When I was working for SlideShare, I worked on an auto-remediation tool called <a href="/miguecoder/holbertonschool-system_engineering-devops/blob/main/rltoken/ftFvBjxNPLoWcF9eHaK8yw" title="Skynet">Skynet</a> that monitored, scaled and fixed Cloud infrastructure. I was using a parallel job-execution system called MCollective that allowed me to execute commands to one or multiple servers at the same time. I could apply an action to a selected set of servers by applying a filter such as the server’s hostname or any other metadata we had (server type, server environment…). At some point, a bug was present in my code that sent <code>nil</code> to the filter method. </p>
@@ -16,11 +16,11 @@
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/55bf80ad79ea8a0ff6ac60d58ae19b223e4bf81df2db978ee8806f9e11dd48ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966" target="_blank">
           <span data-target="animated-image.imageContainer">
             <img data-target="animated-image.replacedImage" alt="68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/55bf80ad79ea8a0ff6ac60d58ae19b223e4bf81df2db978ee8806f9e11dd48ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="316" height="223"></canvas><canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="0" height="0"></canvas></span>
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="316" height="223"></canvas></span>
         </a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966 68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966"></button>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966"></button>
         <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966 68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d73797361646d696e5f6465766f70732f3239322f346938696c33422e676966">
             <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
             </path></svg>
@@ -297,42 +297,4 @@ root@d391259bf577:/#" tabindex="0" role="button">
 </ul>
 </div>
 </div></article>
-  </div>
-=======
-# 0x0A. Configuration management
-<h2>Background Context</h2>
-
-<p><a href="https://youtu.be/ogYLFyp68cI" target="_blank"><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6a0a8024f2b1c47a9d1e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220105%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220105T222913Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dfc05cb743a5289711c651161fb699ac3ebf8126adffada1b7bb77043559073a" alt="" style="" /></a></p>
-
-<p>When I was working for SlideShare, I worked on an auto-remediation tool called <a href="/rltoken/ftFvBjxNPLoWcF9eHaK8yw" title="Skynet" target="_blank">Skynet</a> that monitored, scaled and fixed Cloud infrastructure. I was using a parallel job-execution system called MCollective that allowed me to execute commands to one or multiple servers at the same time. I could apply an action to a selected set of servers by applying a filter such as the server&rsquo;s hostname or any other metadata we had (server type, server environment&hellip;). At some point, a bug was present in my code that sent <code>nil</code> to the filter method. </p>
-
-<p>There were 2 pieces of bad news:</p>
-
-<ol>
-<li>When MCollective receives <code>nil</code> as an argument for its filter method, it takes this to mean &lsquo;all servers&rsquo;</li>
-<li>The action I sent was to terminate the selected servers</li>
-</ol>
-
-<p>I started the parallel job-execution and after some time, I realized that it was taking longer than expected. Looking at logs I realized that I was shutting down SlideShare&rsquo;s entire document conversion environment. Actually, 75% of all our conversion infrastructure servers had been shut down, resulting in users not able to convert their PDFs, powerpoints, and videos&hellip; Pretty bad!</p>
-
-<p>Thanks to Puppet, we were able to restore our infrastructure to normal operation in under 1H, pretty impressive. Imagine if we had to do everything manually: launching the servers, configuring and linking them, importing application code, starting every process, and obviously, fixing all the bugs (you should know by now that complicated infrastructure always goes sideways)&hellip;</p>
-
-<p>Obviously writing Puppet code for your infrastructure requires an investment of time and energy, but in the long term, it is for sure a must-have.</p>
-
-<p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/292/4i8il3B.gif" alt="" style="" /></p>
-
-
-
-
-<h2>Requirements</h2>
-
-
-<ul>
-<li>All your files will be interpreted on Ubuntu 20.04 LTS</li>
-<li>All your files should end with a new line</li>
-<li>A <code>README.md</code> file at the root of the folder of the project is mandatory</li>
-<li>Your Puppet manifests must pass <code>puppet-lint</code> version 2.1.1 without any errors</li>
-<li>Your Puppet manifests must run without error</li>
-<li>Your Puppet manifests first line must be a comment explaining what the Puppet manifest is about</li>
-<li>Your Puppet manifests files must end with the extension <code>.pp</code> </li>
-</ul>
+          </div>
