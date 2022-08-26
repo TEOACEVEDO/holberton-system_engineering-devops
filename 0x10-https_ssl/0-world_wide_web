@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#
+funct() {
+    line=$(dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | tail -1)
+    echo $line | awk '{print "The subdomain '$2' is a "$4" record and points to "$5}'
+}
+
+if [ "$#" == 1 ]
+then
+    funct $1 "www"
+    funct $1 "lb-01"
+    funct $1 "web-01"
+    funct $1 "web-02"
+else
+    funct $1 $2
+fi
