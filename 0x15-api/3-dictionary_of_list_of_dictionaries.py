@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Dictionary of list of dictionaries"""
 from asyncio import tasks
 import requests
 import json
