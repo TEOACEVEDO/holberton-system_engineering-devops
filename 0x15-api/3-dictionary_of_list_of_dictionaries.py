@@ -4,7 +4,6 @@ import json
 import requests
 
 
-
 if __name__ == "__main__":
 
     todos_url = "https://jsonplaceholder.typicode.com/todos"
